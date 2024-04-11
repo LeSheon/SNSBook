@@ -1,0 +1,8 @@
+@use "../../styles/partials/styles" as *;
+
+.footer {
+    width: 100%;
+    text-align: center;
+    padding: 2.5rem;
+    background-color: $cloud;
+}

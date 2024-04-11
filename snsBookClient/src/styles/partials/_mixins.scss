@@ -1,0 +1,21 @@
+// Mixin for responsive screen size.
+@use "./breakpoints.scss" as *;
+
+@mixin tabletMode() {
+  @media (min-width: $tablet-breakpoint) {
+    @content;
+  }
+}
+
+@mixin desktopMode() {
+  @media (min-width: $desktop-breakpoint) {
+    @content;
+  }
+}
+
+@mixin extraWideScreen() {
+  @media (min-width: $extra-wide-breakpoint) {
+    @content;
+  }
+}
+

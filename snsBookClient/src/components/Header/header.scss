@@ -1,0 +1,8 @@
+@use "../../styles/partials/styles" as *;
+
+.header {
+    width: 100%;
+    padding: $mobile-padding;
+    border: 4px solid $custom-blueblack;
+    border-radius: 8px;
+}
