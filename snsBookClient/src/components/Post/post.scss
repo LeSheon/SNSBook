@@ -1,0 +1,46 @@
+@use "../../styles/partials/styles" as *;
+
+.post {
+    background-color: wheat;
+    border-radius: 12px;
+    padding: $mobile-padding;
+    margin: $mobile-padding;
+
+    &__container {
+        display: flex;
+        flex-flow: wrap row;
+    }
+
+    &__avatar {
+        width: 2.5rem;
+        height: 2.5rem;
+        border-radius: 35%;
+    }
+
+    &__profile-container {
+        display: flex;
+        flex-flow: wrap column;
+        padding: 0 $mobile-padding;
+        justify-content: space-around;
+    }
+
+    &__user-name {
+        font-weight: 600;
+    }
+
+    &__time {
+        color: gray;
+    }
+
+    &__feed {
+        padding: $mobile-padding 0;
+        width: 100%;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+
+        &-image {
+            border-radius: 25px;
+        }
+    }
+}

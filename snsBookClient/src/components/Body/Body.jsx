@@ -1,5 +1,9 @@
+import Post from "../Post/Post"
+
 export default function Body() {
     return (
-        <div>Test Body</div>
+        <div className="body">
+            <Post />
+        </div>
     )
 }
