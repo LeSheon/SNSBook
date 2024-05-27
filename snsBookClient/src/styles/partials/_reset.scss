@@ -11,6 +11,11 @@ html {
   *::before,
   *::after {
     box-sizing: inherit;
+    text-decoration: none;
+    list-style: none;
+    border: none;
+    box-sizing: border-box;
+    outline: none;
   }
 
 body {
